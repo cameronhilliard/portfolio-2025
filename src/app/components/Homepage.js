@@ -22,7 +22,6 @@ const Homepage = () => {
         </div>
         <h1 className='font-mont lg:text-5xl md:text-3xl text-2xl  text-accent mx-auto dark:text-white'>Hi, I'm <strong className='text-accent'>Cameron Hilliard</strong></h1> 
         <p className='font-mont text-accent dark:text-white mx-auto lg:text-2xl text-lg  col-start-1  mt-4 '>Software Engineer / IT Professional</p>
-        
         <p className='font-mont lg:text-xl text-accent dark:text-white mx-auto  mt-4 mb-4 col-start-1 italic'> "Turning Ideas into Reality."</p>
         <div className='flex mx-auto col-start-2 mt-4'>
                <a className='bg-accent rounded-lg mr-4 p-4 font-mont  lg:text-lg font-bold'>View My work</a>
@@ -31,88 +30,85 @@ const Homepage = () => {
         </div> 
     </section>
 
-
     <section id="aboutpage" className="lg:w-2/3 md:w-4/5 py-32 p-6 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">About Me</h2>
       <p className="mt-4 lg:text-2xl lg:w-full md:max-w-2xl text-center mx-auto text-lg font-mont text-accent dark:text-white">I am an aspiring Software Engineer based in Halifax, Nova Scotia, with a passion for developing innovative digital solutions that improve efficiency and simplify everyday processes. My goal is to create impactful technology that makes life easier.</p>
     </section>
 
-
     <section id="skillspage" className="lg:w-2/3 md:w-4/5 p-6 py-24  text-white mx-auto  ">
       <h2 className="text-3xl text-center font-mont font-semibold dark:text-accent text-accent">Skills</h2>
       <div className='lg:flex lg:flex-row  flex-wrap lg:mt-20 flex flex-col'>
-     
-      <div className='lg:col-start-2 md:col-start-1  md:p-0 p-2 mx-auto'>
-      <Image 
-          src={"/images/react.png"}
-          width={90}
-          height={80}
-          alt='React Logo'
-        />
-        <p className='mx-auto text-accent dark:text-white text-center font-mont'>React</p>
-      </div>
+        <div className='lg:col-start-2 md:col-start-1  md:p-0 p-2 mx-auto'>
+        <Image 
+            src={"/images/react.png"}
+            width={90}
+            height={80}
+            alt='React Logo'
+          />
+          <p className='mx-auto text-accent dark:text-white text-center font-mont'>React</p>
+        </div>
 
-      <div className='mx-auto'>
-      <Image 
-          src={"/images/js.png"}
-          width={90}
-          height={80}
-          alt='Javascript Logo'
-        />
-        <p className='mx-auto text-accent dark:text-white text-center font-mont'>Javascript</p>
-      </div>
-
+        <div className='mx-auto'>
+        <Image 
+            src={"/images/js.png"}
+            width={90}
+            height={80}
+            alt='Javascript Logo'
+          />
+          <p className='mx-auto text-accent dark:text-white text-center font-mont'>Javascript</p>
+        </div>
 
 
-      <div className='mx-auto'>
-      <Image 
-          src={"/images/nodejs.png"}
-          width={90}
-          height={80}
-          alt='Node JS Logo'
-        />
-        <p className='mx-auto text-accent dark:text-white text-center font-mont'>Node.js</p>
-      </div>
+
+        <div className='mx-auto'>
+        <Image 
+            src={"/images/nodejs.png"}
+            width={90}
+            height={80}
+            alt='Node JS Logo'
+          />
+          <p className='mx-auto text-accent dark:text-white text-center font-mont'>Node.js</p>
+        </div>
 
 
-      <div className='mx-auto'>
-      <Image 
-          src={"/images/mongodb.png"}
-          width={90}
-          height={80}
-          alt='MongoDB Logo'
-        />
-        <p className='mx-auto text-accent dark:text-white text-center font-mont'>MongoDB</p>
-      </div>
+        <div className='mx-auto'>
+        <Image 
+            src={"/images/mongodb.png"}
+            width={90}
+            height={80}
+            alt='MongoDB Logo'
+          />
+          <p className='mx-auto text-accent dark:text-white text-center font-mont'>MongoDB</p>
+        </div>
 
-      <div className=' mx-auto '>
-      <Image  
-          src={"/images/python.png"}
-          width={90}
-          height={80}
-          alt='MongoDB Logo'
-        />
-        <p className='mx-auto text-accent dark:text-white p-2 text-center font-mont'>Python</p>
-      </div>
-
-
-      <div className='lg:col-start-4 md:col-start-3 row-start-2 mt-8 mx-auto '>
-      <Image  
-          src={"/images/tailwind.png"}
-          width={90}
-          height={80}
-          alt='MongoDB Logo'
-        />
-        <p className='mx-auto p-2 text-accent dark:text-white text-center font-mont'>Tailwind</p>
-      </div>
-      </div>
-    </section>
+        <div className=' mx-auto '>
+        <Image  
+            src={"/images/python.png"}
+            width={90}
+            height={80}
+            alt='MongoDB Logo'
+          />
+          <p className='mx-auto text-accent dark:text-white p-2 text-center font-mont'>Python</p>
+        </div>
 
 
-    <section id="projectspage" className="lg:w-2/3 md:w-4/5 py-24 p-6 text-white mx-auto">
-      <h2 className="text-3xl text-center font-mont font-semibold text-accent">Projects</h2>
-      <p className="mt-4 lg:text-2xl lg:w-full md:max-w-2xl text-center mx-auto text-lg font-mont text-accent dark:text-white">Create Project Component Next.</p>
-    </section>
+        <div className='lg:col-start-4 md:col-start-3 row-start-2 mt-8 mx-auto '>
+        <Image  
+            src={"/images/tailwind.png"}
+            width={90}
+            height={80}
+            alt='MongoDB Logo'
+          />
+          <p className='mx-auto p-2 text-accent dark:text-white text-center font-mont'>Tailwind</p>
+        </div>
+        </div>
+      </section>
+
+
+      <section id="projectspage" className="lg:w-2/3 md:w-4/5 py-24 p-6 text-white mx-auto">
+        <h2 className="text-3xl text-center font-mont font-semibold text-accent">Projects</h2>
+        <p className="mt-4 lg:text-2xl lg:w-full md:max-w-2xl text-center mx-auto text-lg font-mont text-accent dark:text-white">Create Project Component Next.</p>
+      </section>
     </>
   )
 }
