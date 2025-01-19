@@ -48,7 +48,7 @@ const Homepage = () => {
           <p className='mx-auto text-accent dark:text-white text-center font-mont'>React</p>
         </div>
 
-        <div className='mx-auto'>
+        <div className='mx-auto pt-4'>
         <Image 
             src={"/images/js.png"}
             width={90}
@@ -60,7 +60,7 @@ const Homepage = () => {
 
 
 
-        <div className='mx-auto'>
+        <div className='mx-auto pt-4'>
         <Image 
             src={"/images/nodejs.png"}
             width={90}
@@ -71,7 +71,7 @@ const Homepage = () => {
         </div>
 
 
-        <div className='mx-auto'>
+        <div className='mx-auto pt-4'>
         <Image 
             src={"/images/mongodb.png"}
             width={90}
@@ -81,7 +81,7 @@ const Homepage = () => {
           <p className='mx-auto text-accent dark:text-white text-center font-mont'>MongoDB</p>
         </div>
 
-        <div className=' mx-auto '>
+        <div className=' mx-auto pt-4'>
         <Image  
             src={"/images/python.png"}
             width={90}
@@ -92,7 +92,7 @@ const Homepage = () => {
         </div>
 
 
-        <div className='lg:col-start-4 md:col-start-3 row-start-2 mt-8 mx-auto '>
+        <div className='mx-auto pt-4'>
         <Image  
             src={"/images/tailwind.png"}
             width={90}
