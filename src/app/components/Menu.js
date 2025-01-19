@@ -13,8 +13,8 @@ const Menu = () => {
         { name: 'Home', href: '#homepage' },
         { name: 'About', href: '#aboutpage' },
         { name: 'Skills', href: '#skillspage' },
-        { name: 'Portfolio', href: '#portfoliopage' },
-        { name: 'Contact', href: '/contact' },
+        { name: 'Projects', href: '#projectspage' },
+        { name: 'Contact', href: '#contactpage' },
       ];
 
     const toggleMenu = () => {
