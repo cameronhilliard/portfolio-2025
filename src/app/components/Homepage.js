@@ -3,6 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import {LinkedinShareButton, LinkedinIcon, EmailShareButton, EmailIcon}  from 'next-share'
+import Portfoliopage from './Portfoliopage'
 
 
 const Homepage = () => {
@@ -21,11 +22,11 @@ const Homepage = () => {
           />
         </div>
         <h1 className='font-mont lg:text-5xl md:text-3xl text-2xl  text-accent mx-auto dark:text-white'>Hi, I'm <strong className='text-accent'>Cameron Hilliard</strong></h1> 
-        <p className='font-mont text-accent dark:text-white mx-auto lg:text-2xl text-lg  col-start-1  mt-4 '>Software Engineer / IT Professional</p>
+        <p className='font-mont text-accent dark:text-white mx-auto lg:text-2xl text-lg  col-start-1  mt-4 '>Full Stack Application Developer / IT Professional</p>
         <p className='font-mont lg:text-xl text-accent dark:text-white mx-auto  mt-4 mb-4 col-start-1 italic'> "Turning Ideas into Reality."</p>
         <div className='flex mx-auto col-start-2 mt-4'>
-               <a className='bg-accent rounded-lg mr-4 p-4 font-mont  lg:text-lg font-bold'>View My work</a>
-               <a className='bg-accent rounded-lg p-4 font-mont lg:text-lg font-bold'>Contact Me</a>
+               <Link href="#projectspage" className='bg-accent rounded-lg mr-4 p-4 font-mont  lg:text-lg font-bold'>View My work</Link> 
+               <Link href="#contactme" className='bg-accent rounded-lg p-4 font-mont lg:text-lg font-bold'>Contact Me</Link>
           </div>
         </div> 
     </section>
