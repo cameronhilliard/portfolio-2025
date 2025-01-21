@@ -9,7 +9,7 @@ const Homepage = () => {
   
   return (
   <>
-    <section id="homepage" className='text-white pt-32'>
+    <section id="homepage" className='text-white lg:pt-32 pt-12'>
       <div id="home-container" className='lg:w-2/3 md:w-4/5 flex flex-col items-center mx-auto '>
         <div className='mx-auto flex-shrink-0'>
           <Image 
