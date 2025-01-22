@@ -112,9 +112,6 @@ const Homepage = () => {
 
     <section id="projectspage" className="lg:w-2/3 md:w-4/5 py-24 p-6 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">Projects</h2>
-      <p className="mt-4 lg:text-2xl lg:w-full md:max-w-2xl text-center mx-auto text-lg font-mont text-accent dark:text-white">
-        Create Project Component Next.
-      </p>
       <div className='lg:grid lg:grid-cols-2 flex flex-col'>
         <div className="bg-zinc-800 lg:m-8 lg:p-4 m-4 p-4 font-mont rounded">
           <h2 className="text-accent font-bold text-xl">Project #1</h2>
