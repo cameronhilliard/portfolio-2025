@@ -22,10 +22,10 @@ const Homepage = () => {
           Hi, I'm <strong className='text-accent'>Cameron Hilliard</strong>
         </h1>
         <p className='font-mont text-accent dark:text-white mx-auto lg:text-2xl text-lg mt-4'>
-          Software Engineer / IT Professional
+          Data Engineer / Full Stack 
         </p>
         <p className='font-mont lg:text-xl text-accent dark:text-white mx-auto mt-4 mb-4 italic'>
-          "Turning Ideas into Reality."
+          "Engineering Data for Impact"
         </p>
         <div className='flex mx-auto mt-4'>
           <Link href="#projectspage" className='bg-accent rounded-lg mr-4 p-4 font-mont lg:text-lg font-bold'>
@@ -45,83 +45,75 @@ const Homepage = () => {
       </p>
     </section>
 
-    <section id="skillspage" className="lg:w-2/3 md:w-4/5 p-6 py-24 text-white mx-auto">
+    <section id="skillspage" className="lg:w-2/3 md:w-4/5 max-w-6xl p-6 py-24 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold dark:text-accent text-accent">Skills</h2>
-      <div className='lg:flex lg:flex-row flex-wrap lg:mt-20 flex flex-col'>
-        <div className='lg:col-start-2 md:col-start-1 md:p-0 p-2 mx-auto'>
-          <Image 
-            src={"/images/react.png"}
-            width={90}
-            height={80}
-            alt='React Logo'
-          />
-          <p className='mx-auto text-accent dark:text-white text-center font-mont'>React</p>
+      <div className='lg:flex lg:flex-row flex-wrap justify-center  mt-8 flex flex-col'>
+      
+      <div className='lg:grid lg:grid-cols-3 md:grid md:grid-cols-3 grid grid-cols-2 text-center  font-bold gap-4 '>
+
+        <div className='px-6 p-2  rounded-full dark:bg-zinc-800 shadow-xl text-accent'> 
+          <span className='font-mont' >Python</span>
+        </div>
+       
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
+          <span className='font-mont' >JavaScript</span>
         </div>
 
-        <div className='mx-auto pt-4'>
-          <Image 
-            src={"/images/js.png"}
-            width={90}
-            height={80}
-            alt='Javascript Logo'
-          />
-          <p className='mx-auto text-accent dark:text-white text-center font-mont'>Javascript</p>
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
+          <span className='font-mont' >React</span>
         </div>
 
-        <div className='mx-auto pt-4'>
-          <Image 
-            src={"/images/nodejs.png"}
-            width={90}
-            height={80}
-            alt='Node JS Logo'
-          />
-          <p className='mx-auto text-accent dark:text-white text-center font-mont'>Node.js</p>
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
+          <span className='font-mont' >Git</span>
         </div>
 
-        <div className='mx-auto pt-4'>
-          <Image 
-            src={"/images/mongodb.png"}
-            width={90}
-            height={80}
-            alt='MongoDB Logo'
-          />
-          <p className='mx-auto text-accent dark:text-white text-center font-mont'>MongoDB</p>
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800  shadow-xl  text-accent'> 
+          <span className='font-mont' >Node.js</span>
         </div>
 
-        <div className='mx-auto pt-4'>
-          <Image  
-            src={"/images/python.png"}
-            width={90}
-            height={80}
-            alt='MongoDB Logo'
-          />
-          <p className='mx-auto text-accent dark:text-white p-2 text-center font-mont'>Python</p>
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl text-accent'> 
+          <span className='font-mont'>SQL</span>
         </div>
 
-        <div className='mx-auto pt-4'>
-          <Image  
-            src={"/images/tailwind.png"}
-            width={90}
-            height={80}
-            alt='MongoDB Logo'
-          />
-          <p className='mx-auto p-2 text-accent dark:text-white text-center font-mont'>Tailwind</p>
+
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl   text-accent'> 
+          <span className='font-mont'>Bash</span>
         </div>
+
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl   text-accent'> 
+          <span className='font-mont'>MongoDB</span>
+        </div>
+
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl   text-accent'> 
+          <span className='font-mont'>Express</span>
+        </div>
+      </div>
+
       </div>
     </section>
 
-    <section id="projectspage" className="lg:w-2/3 md:w-4/5 py-24 p-6 text-white mx-auto">
+    <section id="projectspage" className=" lg:w-4/5  py-24 p-6 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">Projects</h2>
-      <div className='lg:grid lg:grid-cols-2 flex flex-col'>
-        <div className="bg-zinc-800 lg:m-8 lg:p-4 m-4 p-4 font-mont rounded">
-          <h2 className="text-accent font-bold text-xl">Project #1</h2>
-          <p>Project description</p>
+      <div className='lg:w-6/12 mx-auto'>
+      <div className="max-w-sm sm:max-w-lg mt-4 dark:bg-zinc-800 rounded-lg shadow-lg overflow-hidden  z-[1] mx-auto">
+      <Image 
+            src={"/images/busmapimage.png"}
+            width={300}
+            height={100}
+            alt="Project Preview"
+            className='w-full'
+          />
+            <div className="p-4">
+              <h2 className="text-xl font-bold text-accent mb-2 font-mont">Bus Map Road API</h2>
+                <p className="text-accent dark:text-white font-mont mb-4">
+                  A Bus Map pulls data from the Halifax transit API, updating every minute. 
+                  Built using Leaflet to map images and fetch map information dynamically.
+                </p>
+        
+                <Link href="https://cameronhilliard.github.io/busmapapi/" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 py-2 rounded-md text-sm font-semibold transition">Live Demo</Link>
+            </div>
+          </div>
         </div>
-        <div className="bg-zinc-800 m-8 p-4 font-mont rounded col-start-2">
-          <h2 className="text-accent font-bold text-xl">Project #2</h2>
-          <p>Project description</p>
-        </div>
-      </div>
     </section>
 
     </>

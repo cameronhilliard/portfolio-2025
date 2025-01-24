@@ -33,7 +33,7 @@ const Menu = () => {
 
 
       {openMenu && (
-        <div className="absolute z-100 right-0 mr-12 w-48 dark:bg-black bg-offwhite text-accent dark:text-white  rounded-lg shadow-lg">
+        <div className="absolute  mt-8 z-50 right-0 lg:mr-12 lg:w-48 w-full  mx-auto dark:bg-zinc-800 bg-offwhite text-accent dark:text-white transition-transform animate-fade-down lg:rounded-lg shadow-lg">
           <ul className="py-2">
             {menuItems.map((item, index) => (
               <li key={index}>
