@@ -41,7 +41,7 @@ const Homepage = () => {
     <section id="aboutpage" className="lg:w-2/3 md:w-4/5 py-32 p-6 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">About Me</h2>
       <p className="mt-4 lg:text-2xl lg:w-full md:max-w-2xl text-center mx-auto text-lg font-mont text-accent dark:text-white">
-        I am an aspiring Software Engineer based in Halifax, Nova Scotia, with a passion for developing innovative digital solutions that improve efficiency and simplify everyday processes. My goal is to create impactful technology that makes life easier.
+      Hi, I’m an aspiring Data Engineer from Halifax, Nova Scotia. With a background in Full Stack Development and IT, I’m passionate about transforming data into meaningful insights and building efficient solutions.
       </p>
     </section>
 
@@ -55,19 +55,19 @@ const Homepage = () => {
           <span className='font-mont' >Python</span>
         </div>
        
-        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl text-accent'> 
           <span className='font-mont' >JavaScript</span>
         </div>
 
-        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
-          <span className='font-mont' >React</span>
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl text-accent'> 
+          <span className='font-mont'>React</span>
         </div>
 
-        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl text-accent'> 
           <span className='font-mont' >Git</span>
         </div>
 
-        <div className='px-6 p-2 rounded-full dark:bg-zinc-800  shadow-xl  text-accent'> 
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800  shadow-xl text-accent'> 
           <span className='font-mont' >Node.js</span>
         </div>
 
@@ -76,15 +76,15 @@ const Homepage = () => {
         </div>
 
 
-        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl   text-accent'> 
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
           <span className='font-mont'>Bash</span>
         </div>
 
-        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl   text-accent'> 
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
           <span className='font-mont'>MongoDB</span>
         </div>
 
-        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl   text-accent'> 
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
           <span className='font-mont'>Express</span>
         </div>
       </div>
