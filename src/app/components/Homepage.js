@@ -40,8 +40,10 @@ const Homepage = () => {
 
     <section id="aboutpage" className="lg:w-2/3 md:w-4/5 py-32 p-6 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">About Me</h2>
-      <p className="mt-4 lg:text-2xl lg:w-full md:max-w-2xl text-center mx-auto text-lg font-mont text-accent dark:text-white">
-      Hi, I’m an aspiring Data Engineer from Halifax, Nova Scotia. With a background in Full Stack Development and IT, I’m passionate about transforming data into meaningful insights and building efficient solutions.
+      <p className="mt-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/8 font-mont text-accent dark:text-white">
+      Hi, I’m a Full Stack Developer based in Halifax, Nova Scotia. I have a background in IT and software development, and I love building things that make life easier—whether it’s scalable web apps, automation tools, or smooth user experiences. From backend architecture to front-end design, I enjoy solving problems and bringing ideas to life.
+
+Lately, I’ve been diving into Data Engineering out of curiosity, exploring data pipelines, databases, and cloud infrastructure. I’m always looking for ways to make systems more efficient and performant.
       </p>
     </section>
 
@@ -95,6 +97,26 @@ const Homepage = () => {
     <section id="projectspage" className=" lg:w-4/5  py-24 p-6 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">Projects</h2>
       <div className='lg:w-6/12 mx-auto'>
+      
+
+      {/* <div className="max-w-sm sm:max-w-lg mt-4 dark:bg-zinc-800 rounded-lg shadow-lg overflow-hidden  z-[1] mx-auto">
+      <Image 
+            src={"/images/busmapimage.png"}
+            width={300}
+            height={100}
+            alt="Project Preview"
+            className='w-full'
+          />
+            <div className="p-4">
+              <h2 className="text-xl font-bold text-accent mb-2 font-mont">Quality Resonates</h2>
+                <p className="text-accent dark:text-white font-mont mb-4">
+                  A Headphone app that uses Python, Web Scraping, AI to determine best audio products.  
+                </p>
+                <Link href="https://cameronhilliard.github.io/busmapapi/" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 py-2 rounded-md text-sm font-semibold transition">Live Demo</Link>
+                <Link href="https://cameronhilliard.github.io/busmapapi/" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 ml-2 py-2 rounded-md text-sm font-semibold transition"> Source Code </Link>
+            </div>
+          </div> */}
+
       <div className="max-w-sm sm:max-w-lg mt-4 dark:bg-zinc-800 rounded-lg shadow-lg overflow-hidden  z-[1] mx-auto">
       <Image 
             src={"/images/busmapimage.png"}
@@ -109,8 +131,8 @@ const Homepage = () => {
                   A Bus Map pulls data from the Halifax transit API, updating every minute. 
                   Built using Leaflet to map images and fetch map information dynamically.
                 </p>
-        
-                <Link href="https://cameronhilliard.github.io/busmapapi/" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 py-2 rounded-md text-sm font-semibold transition">Live Demo</Link>
+                <Link href="https://cameronhilliard.github.io/busmapapi/" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 py-2 mx-auto rounded-md text-sm font-semibold transition">Live Demo</Link>
+                <Link href="https://cameronhilliard.github.io/busmapapi/" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 ml-2 py-2 rounded-md text-sm font-semibold transition"> Source Code </Link>
             </div>
           </div>
         </div>
