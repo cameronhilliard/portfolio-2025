@@ -22,10 +22,10 @@ const Homepage = () => {
           Hi, I'm <strong className='text-accent'>Cameron Hilliard</strong>
         </h1>
         <p className='font-mont text-accent dark:text-white mx-auto lg:text-2xl text-lg mt-4'>
-          Data Engineer / Full Stack 
+          Full Stack Developer
         </p>
         <p className='font-mont lg:text-xl text-accent dark:text-white mx-auto mt-4 mb-4 italic'>
-          "Engineering Data for Impact"
+          "Turning Logic into Limitless Possibilities."
         </p>
         <div className='flex mx-auto mt-4'>
           <Link href="#projectspage" className='bg-accent rounded-lg mr-4 p-4 font-mont lg:text-lg font-bold'>
