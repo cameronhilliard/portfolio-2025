@@ -13,12 +13,12 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Cameron Hilliard",
-  description: "My Portfolio showcasing all of my work.",
+  description: "My Portfolio showcasing all of my development work.",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html className="  scroll-smooth" lang="en">
+    <html className="dark scroll-smooth" lang="en">
     <head>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
