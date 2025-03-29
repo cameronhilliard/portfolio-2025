@@ -27,7 +27,7 @@ const Homepage = () => {
         <p className='font-mont lg:text-xl text-accent dark:text-white mx-auto mt-4 mb-4 italic'>
           "Turning Logic into Limitless Possibilities."
         </p>
-        <div className='flex mx-auto mt-4'>
+        <div className='flex mx-auto mt-8'>
           <Link href="#projectspage" className='bg-accent rounded-lg mr-4 p-4 font-mont lg:text-lg font-bold'>
             View My work
           </Link> 
@@ -117,7 +117,40 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
             </div>
           </div> */}
 
+
+
+      
+
       <div className="max-w-sm sm:max-w-lg mt-4 dark:bg-zinc-800 rounded-lg shadow-lg overflow-hidden  z-[1] mx-auto">
+      <Image 
+            src={"/images/mindcere-pic.png"}
+            width={300}
+            height={100}
+            alt="Project Preview"
+            className='w-full'
+          />
+            <div className="p-4">
+              <h2 className="text-xl font-bold text-accent mb-2 font-mont">MindCere</h2>
+                <p className="text-accent dark:text-white font-mont mb-4">
+                I created MindCere out of curiosity about brain health after experiencing a seizure and wanted to explore what factors could help prevent them and to explore my curiousity as a developer.
+                </p>
+                <ul className='font-mont pb-2'>
+                  <li className='font-bold'>Tech Stack:</li>
+                  <li>Frontend: Next.js (React)</li>
+                  <li>Backend: FastAPI (Python)</li>
+                  <li>Database: MongoDB Atlas</li>
+                  <li>Cloud & Hosting: AWS EC2 (FastAPI backend)</li>
+
+                  <li>AI Integration: OpenAI API for generating Brain Information</li>
+                </ul>
+                <Link href="https://www.mindcere.com" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 py-2 mx-auto rounded-md text-sm font-semibold transition">Live Demo</Link>
+                {/* <Link href="https://cameronhilliard.github.io/busmapapi/" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 ml-2 py-2 rounded-md text-sm font-semibold transition"> Source Code </Link> */}
+            </div>
+          </div>
+
+
+
+          <div className="max-w-sm sm:max-w-lg mt-4 dark:bg-zinc-800 rounded-lg shadow-lg overflow-hidden  z-[1] mx-auto">
       <Image 
             src={"/images/busmapimage.png"}
             width={300}
