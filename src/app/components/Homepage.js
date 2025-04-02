@@ -140,8 +140,8 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
                   <li>Backend: FastAPI (Python)</li>
                   <li>Database: MongoDB Atlas</li>
                   <li>Cloud & Hosting: AWS EC2 (FastAPI backend)</li>
-
                   <li>AI Integration: OpenAI API for generating Brain Information</li>
+                  <li>Automation: Apache Airflow</li>
                 </ul>
                 <Link href="https://www.mindcere.com" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 py-2 mx-auto rounded-md text-sm font-semibold transition">Live Demo</Link>
                 {/* <Link href="https://cameronhilliard.github.io/busmapapi/" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 ml-2 py-2 rounded-md text-sm font-semibold transition"> Source Code </Link> */}
