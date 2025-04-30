@@ -31,7 +31,7 @@ const Homepage = () => {
           <Link href="#projectspage" className='bg-accent rounded-lg mr-4 p-4 font-mont lg:text-lg font-bold'>
             View My work
           </Link> 
-          <Link href="#contactme" className='bg-accent rounded-lg p-4 font-mont lg:text-lg font-bold'>
+          <Link href="#contactpage" className='bg-accent rounded-lg p-4 font-mont lg:text-lg font-bold'>
             Contact Me
           </Link>
         </div>
@@ -141,7 +141,7 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
                   <li>Database: MongoDB Atlas</li>
                   <li>Cloud & Hosting: AWS EC2 (FastAPI backend)</li>
                   <li>AI Integration: OpenAI API for generating Brain Information</li>
-                  <li>Automation: Apache Airflow</li>
+                  <li>Automation: Apache Airflow </li>
                 </ul>
                 <Link href="https://www.mindcere.com" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 py-2 mx-auto rounded-md text-sm font-semibold transition">Live Demo</Link>
                 {/* <Link href="https://cameronhilliard.github.io/busmapapi/" className="inline-block font-mont bg-accent hover:bg-orange-500 text-white px-4 ml-2 py-2 rounded-md text-sm font-semibold transition"> Source Code </Link> */}
@@ -169,6 +169,16 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
             </div>
           </div>
         </div>
+    </section>
+
+
+    <section id="contactpage" className="lg:w-2/3 md:w-4/5 py-32 p-6 flex flex-col text-white mx-auto">
+      <h2 className="text-3xl text-center font-mont font-semibold text-accent">Contact Me</h2>
+      <Link href="mailto:cameronhilliard@outlook.com" className="mt-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/8 font-mont text-accent dark:text-white">
+    Email: cameronhilliard@outlook.com</Link>
+    <Link href={"https://www.linkedin.com/in/camhilliard"} className="mt-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/8 font-mont text-accent dark:text-white">
+    Linkedin: https://www.linkedin.com/in/camhilliard</Link>
+
     </section>
 
     </>
