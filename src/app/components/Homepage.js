@@ -22,7 +22,7 @@ const Homepage = () => {
           Hi, I'm <strong className='text-accent'>Cameron Hilliard</strong>
         </h1>
         <p className='font-mont text-accent dark:text-white mx-auto lg:text-2xl text-lg mt-4'>
-          Full Stack Developer
+          Full Stack Engineer
         </p>
         <p className='font-mont lg:text-xl text-accent dark:text-white mx-auto mt-4 mb-4 italic'>
           "Turning Logic into Limitless Possibilities."
@@ -41,7 +41,7 @@ const Homepage = () => {
     <section id="aboutpage" className="lg:w-2/3 md:w-4/5 py-32 p-6 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">About Me</h2>
       <p className="mt-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/8 font-mont text-accent dark:text-white">
-      Hi, I’m a Full Stack Developer based in Halifax, Nova Scotia. I have a background in IT and software development, and I love building things that make life easier—whether it’s scalable web apps, automation tools, or smooth user experiences. From backend architecture to front-end design, I enjoy solving problems and bringing ideas to life.
+      Hi, I’m a Full Stack Engineer based in Halifax, Nova Scotia. I have a background in IT and software development, and I love building things that make life easier—whether it’s scalable web apps, automation tools, or smooth user experiences. From backend architecture to front-end design, I enjoy solving problems and bringing ideas to life.
 
 Lately, I’ve been diving into Data Engineering out of curiosity, exploring data pipelines, databases, and cloud infrastructure. I’m always looking for ways to make systems more efficient and performant.
       </p>
@@ -54,7 +54,7 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
       <div className='lg:grid lg:grid-cols-3 md:grid md:grid-cols-3 grid grid-cols-2 text-center  font-bold gap-4 '>
 
         <div className='px-6 p-2  rounded-full dark:bg-zinc-800 shadow-xl text-accent'> 
-          <span className='font-mont' >Python</span>
+          <span className='font-mont'>Python</span>
         </div>
        
         <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl text-accent'> 
@@ -90,7 +90,15 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
           <span className='font-mont'>Express</span>
         </div>
       </div>
+      </div>
+    </section>
 
+       <section id="certs_page" className="lg:w-2/3 md:w-4/5 max-w-6xl p-6 py-24 text-white mx-auto">
+      <h2 className="text-3xl text-center font-mont font-semibold dark:text-accent text-accent">Certificates</h2>
+      <div className='lg:flex lg:flex-row flex-wrap justify-center items-center mt-8 flex flex-col'>
+      
+  <a href="https://badges.peoplecert.org/Badge/en/18F150AB-BD34-4D43-8F2D-F285A5F656A4" title="ITIL® 4 Foundation Certificate in IT Service Management" target="_blank"><img src="https://badges.peoplecert.org/Badges/Template/en/180/ec721fda-bb43-434e-8ef8-e99f8c748ee4" alt="ITIL® 4 Foundation Certificate in IT Service Management" /></a>
+      
       </div>
     </section>
 
@@ -134,7 +142,7 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
                 <p className="text-accent dark:text-white font-mont mb-4">
                 I created MindCere out of curiosity about brain health after experiencing a seizure and wanted to explore what factors could help prevent them and to explore my curiousity as a developer.
                 </p>
-                <ul className='font-mont pb-2'>
+                <ul className='font-mont pb-2 text-accent dark:text-white'>
                   <li className='font-bold'>Tech Stack:</li>
                   <li>Frontend: Next.js (React)</li>
                   <li>Backend: FastAPI (Python)</li>
@@ -174,9 +182,9 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
 
     <section id="contactpage" className="lg:w-2/3 md:w-4/5 py-32 p-6 flex flex-col text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">Contact Me</h2>
-      <Link href="mailto:cameronhilliard@outlook.com" className="mt-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/8 font-mont text-accent dark:text-white">
+      <Link href="mailto:cameronhilliard@outlook.com" className="mt-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/2 font-mont text-accent dark:text-white">
     Email: cameronhilliard@outlook.com</Link>
-    <Link href={"https://www.linkedin.com/in/camhilliard"} className="mt-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/8 font-mont text-accent dark:text-white">
+    <Link href={"https://www.linkedin.com/in/camhilliard"} className="m-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/1 font-mont  text-accent dark:text-white">
     Linkedin: https://www.linkedin.com/in/camhilliard</Link>
 
     </section>
