@@ -1,7 +1,6 @@
 "use client"
 import React, {useState, useEffect} from 'react'
 import Link from 'next/link'
-import BasicMenu from './Basicmenu'
 import Menu from './Menu'
 import DarkModeToggle from './Darkmode'
 

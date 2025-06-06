@@ -19,13 +19,13 @@ const Homepage = () => {
           />
         </div>
         <h1 className='font-mont lg:text-5xl md:text-3xl text-2xl text-accent mx-auto dark:text-white'>
-          Hi, I'm <strong className='text-accent'>Cameron Hilliard</strong>
+          Hi, I&apos;m <strong className='text-accent'>Cameron Hilliard</strong>
         </h1>
         <p className='font-mont text-accent dark:text-white mx-auto lg:text-2xl text-lg mt-4'>
           Full Stack Engineer
         </p>
         <p className='font-mont lg:text-xl text-accent dark:text-white mx-auto mt-4 mb-4 italic'>
-          "Turning Logic into Limitless Possibilities."
+          Turning Logic into Limitless Possibilities.
         </p>
         <div className='flex mx-auto mt-8'>
           <Link href="#projectspage" className='bg-accent rounded-lg mr-4 p-4 font-mont lg:text-lg font-bold'>
@@ -93,11 +93,11 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
       </div>
     </section>
 
-       <section id="certs_page" className="lg:w-2/3 md:w-4/5 max-w-6xl p-6 py-24 text-white mx-auto">
+       <section id="certspage" className="lg:w-2/3 md:w-4/5 max-w-6xl p-6 py-24 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold dark:text-accent text-accent">Certificates</h2>
       <div className='lg:flex lg:flex-row flex-wrap justify-center items-center mt-8 flex flex-col'>
       
-  <a href="https://badges.peoplecert.org/Badge/en/18F150AB-BD34-4D43-8F2D-F285A5F656A4" title="ITIL® 4 Foundation Certificate in IT Service Management" target="_blank"><img src="https://badges.peoplecert.org/Badges/Template/en/180/ec721fda-bb43-434e-8ef8-e99f8c748ee4" alt="ITIL® 4 Foundation Certificate in IT Service Management" /></a>
+  <a href="https://badges.peoplecert.org/Badge/en/18F150AB-BD34-4D43-8F2D-F285A5F656A4" title="ITIL 4 Foundation Certificate in IT Service Management" target="_blank"><Image src="https://badges.peoplecert.org/Badges/Template/en/180/ec721fda-bb43-434e-8ef8-e99f8c748ee4" width={200} height={200} alt="ITIL Foundation Certificate in IT Service Management" /></a>
       
       </div>
     </section>

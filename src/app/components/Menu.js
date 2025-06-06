@@ -13,6 +13,7 @@ const Menu = () => {
         { name: 'Home', href: '#homepage' },
         { name: 'About', href: '#aboutpage' },
         { name: 'Skills', href: '#skillspage' },
+        { name: 'Certificates', href: '#certspage' },
         { name: 'Projects', href: '#projectspage' },
         { name: 'Contact', href: '#contactpage' },
       ];
