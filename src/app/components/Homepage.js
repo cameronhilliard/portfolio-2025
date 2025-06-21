@@ -41,9 +41,7 @@ const Homepage = () => {
     <section id="aboutpage" className="lg:w-2/3 md:w-4/5 py-32 p-6 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">About Me</h2>
       <p className="mt-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/8 font-mont text-accent dark:text-white">
-      Hi, I’m a Full Stack Engineer based in Halifax, Nova Scotia. I have a background in Information Technology and software development, and I love building things that make life easier—whether it’s scalable web apps, automation tools, or smooth user experiences. From backend architecture to front-end design, I enjoy solving problems and bringing ideas to life.
-
-Lately, I’ve been diving into Data Engineering out of curiosity, exploring data pipelines, databases, and cloud infrastructure. I’m always looking for ways to make systems more efficient and performant.
+      I’m an IT professional and Full Stack Engineer who enjoys building web apps, automation tools, and intuitive user experiences. With a background in IT and software development, I’m passionate about solving problems and making systems work better for people. I am currently expanding my expertise in emerging technologies and cloud solutions to further enhance my skill set.
       </p>
     </section>
 
