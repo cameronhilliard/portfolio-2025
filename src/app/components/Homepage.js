@@ -22,10 +22,10 @@ const Homepage = () => {
           Hi, I&apos;m <strong className='text-accent'>Cameron Hilliard</strong>
         </h1>
         <p className='font-mont text-accent dark:text-white mx-auto lg:text-2xl text-lg mt-4'>
-          Full Stack Engineer
+          IT Professional | Full Stack Engineer
         </p>
         <p className='font-mont lg:text-xl text-accent dark:text-white mx-auto mt-4 mb-4 italic'>
-          Turning Logic into Limitless Possibilities.
+          Solving Problems, Creating Value, Delivering Efficiency
         </p>
         <div className='flex mx-auto mt-8'>
           <Link href="#projectspage" className='bg-accent rounded-lg mr-4 p-4 font-mont lg:text-lg font-bold'>
@@ -41,7 +41,7 @@ const Homepage = () => {
     <section id="aboutpage" className="lg:w-2/3 md:w-4/5 py-32 p-6 text-white mx-auto">
       <h2 className="text-3xl text-center font-mont font-semibold text-accent">About Me</h2>
       <p className="mt-4 lg:text-lg/8 lg:w-full md:max-w-2xl text-center mx-auto text-lg/8 font-mont text-accent dark:text-white">
-      Hi, I’m a Full Stack Engineer based in Halifax, Nova Scotia. I have a background in IT and software development, and I love building things that make life easier—whether it’s scalable web apps, automation tools, or smooth user experiences. From backend architecture to front-end design, I enjoy solving problems and bringing ideas to life.
+      Hi, I’m a Full Stack Engineer based in Halifax, Nova Scotia. I have a background in Information Technology and software development, and I love building things that make life easier—whether it’s scalable web apps, automation tools, or smooth user experiences. From backend architecture to front-end design, I enjoy solving problems and bringing ideas to life.
 
 Lately, I’ve been diving into Data Engineering out of curiosity, exploring data pipelines, databases, and cloud infrastructure. I’m always looking for ways to make systems more efficient and performant.
       </p>
