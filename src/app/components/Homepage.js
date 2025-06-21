@@ -25,7 +25,7 @@ const Homepage = () => {
           IT Professional | Full Stack Engineer
         </p>
         <p className='font-mont lg:text-xl text-accent dark:text-white mx-auto mt-4 mb-4 italic'>
-          Solving Problems, Creating Value, Delivering Efficiency
+          Solving Problems, Delivering Efficiency
         </p>
         <div className='flex mx-auto mt-8'>
           <Link href="#projectspage" className='bg-accent rounded-lg mr-4 p-4 font-mont lg:text-lg font-bold'>
@@ -88,6 +88,19 @@ Lately, I’ve been diving into Data Engineering out of curiosity, exploring dat
 
         <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
           <span className='font-mont'>Express</span>
+        </div>
+
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
+          <span className='font-mont'>Office</span>
+        </div>
+
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
+          <span className='font-mont'>Networking</span>
+        </div>
+
+        
+        <div className='px-6 p-2 rounded-full dark:bg-zinc-800 shadow-xl  text-accent'> 
+          <span className='font-mont'>Azure</span>
         </div>
       </div>
       </div>
