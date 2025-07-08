@@ -11,7 +11,7 @@ const Homepage = () => {
       <div id="home-container" className='lg:w-2/3 md:w-4/5 flex flex-col items-center mx-auto '>
         <div className='mx-auto flex-shrink-0'>
           <Image 
-            src={"/images/cameron.png"}
+            src={"/images/cameronhilliard.jpg"}
             width={170}
             height={50}
             alt='Profile Picture of Cameron'
