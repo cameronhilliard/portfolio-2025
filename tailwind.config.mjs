@@ -14,9 +14,10 @@ export default {
       },
 
       colors: {
-        background: "#121212",
-        accent: "#FF5722",
+        background: "#0F0F10",
+        accent: "#C86A2A",
         offwhite: "#f2f0ef",
+        extra: "#F2EFEA"
       },
     },
   },

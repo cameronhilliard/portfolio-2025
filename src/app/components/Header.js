@@ -1,48 +1,49 @@
-"use client"
-import React, {useState, useEffect} from 'react'
-import Link from 'next/link'
-import Menu from './Menu'
-import DarkModeToggle from './Darkmode'
-
+"use client";
+import React, { useState, useEffect } from "react";
+import Menu from "./Menu";
 
 
 const Header = () => {
-
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
+    return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-
-
-
   return (
-    <header className={`flex flex-row  justify-between sticky top-0 ${
+    <header
+      className={[
+        "sticky top-0 z-50",
+        "mx-auto w-full",
+        "transition-all duration-300",
         isScrolled
-          ? "bg-gray-800 bg-opacity-90 backdrop-blur-sm dark:bg-black/30 bg-white/30 shadow-lg text-white"
-          : "bg-transparent text-gray-900"
-      }`} 
+          ? "bg-[#0F0F10]/85 backdrop-blur border-b border-[#EDEDED]/10 shadow-[0_10px_30px_rgba(0,0,0,0.35)]"
+          : "bg-transparent",
+      ].join(" ")}
     >
-      <h1 className='text-accent  font-bold font-mont text-lg mt-12 ml-12 mb-8 '>Cameron Hilliard</h1>
-        <nav className='flex items-center mt-12 mr-12 mb-8 space-x-2'>
-          <DarkModeToggle />
+      <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-5">
+        {/* Brand */}
+        <a
+          href="#homepage"
+          className="font-mont text-sm tracking-wide hover:opacity-90 transition"
+        >
+          <span className="text-[#C86A2A]">Cameron</span>{" "}
+          <span className="text-[#EDEDED]/90">Hilliard</span>
+        </a>
+
+        {/* Actions */}
+        <nav className="flex items-center gap-3">
+          {/* <DarkModeToggle /> */}
           <Menu />
         </nav>
+      </div>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
