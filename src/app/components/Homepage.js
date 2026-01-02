@@ -39,12 +39,14 @@ const Homepage = () => {
         <div className="flex mx-auto mt-10 gap-4">
           {/* Secondary */}
           <Link
-            href="#projectspage"
+            href="/Cameron_Hilliard_Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-xl px-6 py-3 font-mont text-sm tracking-wide
                       text-[#EDEDED] border border-[#C86A2A]/40
                       hover:bg-[#C86A2A]/10 transition"
           >
-            View Work
+            View Resume
           </Link>
 
           {/* Primary */}
@@ -73,7 +75,7 @@ const Homepage = () => {
   {/* heading */}
   <div className="text-center">
     <h2 className="font-mont text-2xl sm:text-3xl tracking-wide font-medium text-[#EDEDED]">
-      About Me
+      Professional Summary
     </h2>
 
     {/* optional tiny accent line (very subtle) */}
@@ -82,11 +84,7 @@ const Homepage = () => {
 
   {/* body */}
   <p className="mt-8 mx-auto max-w-2xl text-center font-mont text-base sm:text-lg leading-relaxed dark:text-[#DADADA] text-accent">
-    I’m an IT professional and Full Stack Engineer who enjoys building web apps, automation tools,
-    and intuitive user experiences. With a background in IT and software development, I’m
-    passionate about solving problems and making systems work better for people. I am currently
-    expanding my expertise in emerging technologies and cloud solutions to further enhance my skill
-    set.
+    I’m an IT professional with experience supporting users and systems in structured environments. I focus on troubleshooting, documentation, and clear communication to help technology work reliably for the people who depend on it. I enjoy solving practical problems and continuously developing my skills across IT operations and systems.
   </p>
 </section>
 
