@@ -31,9 +31,11 @@ const Homepage = () => {
         </div>
 
         {/* Role */}
-        <p className="font-mont text-[#DADADA] mx-auto lg:text-lg text-base mt-6 text-center">
-          IT Professional · Problem Solving
-        </p>
+       <p className="font-mont text-[#DADADA] mx-auto lg:text-lg text-base mt-6 text-center">
+        IT Professional{" "}
+        <span className="text-[#C86A2A]">·</span>{" "}
+        Problem Solving
+       </p>
 
         {/* Buttons */}
         <div className="flex mx-auto mt-10 gap-4">
