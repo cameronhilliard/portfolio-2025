@@ -170,7 +170,7 @@ const Homepage = () => {
   {/* header */}
   <div className="text-center">
     <h2 className="font-mont text-2xl sm:text-3xl tracking-wide font-medium text-[#EDEDED]">
-      Certificates
+      Certifications
     </h2>
     <p className="mt-4 mx-auto max-w-2xl font-mont text-[#DADADA] leading-relaxed">
       Professional certifications that support service quality, clarity, and reliability.
