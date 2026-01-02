@@ -112,7 +112,7 @@ const Homepage = () => {
     {[
       {
         title: "IT Support & Troubleshooting",
-        desc: "Calm diagnosis, clear communication, and consistent resolution.",
+        desc: "Professional communication, thoughtful diagnosis, and issue resolution.",
       },
       {
         title: "Systems & Account Management",
@@ -120,7 +120,7 @@ const Homepage = () => {
       },
       {
         title: "Documentation & Process",
-        desc: "Clean runbooks, repeatable workflows, and better handoffs.",
+        desc: "Clear documentation, repeatable workflows, and better handoffs.",
       },
       {
         title: "Automation Mindset",
