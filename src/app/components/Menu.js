@@ -12,7 +12,7 @@ const Menu = () => {
     { name: "Home", href: "#homepage" },
     { name: "About", href: "#aboutpage" },
     { name: "Areas", href: "#skillspage" },
-    { name: "Certificates", href: "#certspage" },
+    { name: "Certifications", href: "#certspage" },
     { name: "Contact", href: "#contactpage" },
   ];
 

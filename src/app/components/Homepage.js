@@ -102,7 +102,7 @@ const Homepage = () => {
     <h2 className="font-mont text-2xl sm:text-3xl tracking-wide font-medium text-accent dark:text-[#EDEDED]">
       Areas of Focus
     </h2>
-    <p className="mt-4 mx-auto max-w-2xl text-accent dark:text-[#DADADA] leading-relaxed">
+    <p className="mt-4 mx-auto font-mont max-w-2xl text-accent dark:text-[#DADADA] leading-relaxed">
       Practical IT skills centered on reliability, clarity, and people-first support.
     </p>
   </div>
