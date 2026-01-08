@@ -9,8 +9,8 @@ const montserrat = Montserrat({
 
 
 export const metadata = {
-  title: "Cameron Hilliard",
-  description: "My Portfolio showcasing all of my development work.",
+  title: "Cameron Hilliard | IT Professional | Systems & Automation",
+  description: "IT Professional with experience in systems support, automation, and technical problem solving. Focused on reliable solutions, documentation, and secure workflows.",
 };
 
 export default function RootLayout({ children }) {
