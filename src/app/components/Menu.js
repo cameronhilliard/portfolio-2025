@@ -11,7 +11,8 @@ const Menu = () => {
   const menuItems = [
     { name: "Home", href: "#homepage" },
     { name: "About", href: "#aboutpage" },
-    { name: "Areas", href: "#skillspage" },
+    { name: "Experience", href: "#experiencepage" },
+    { name: "Capabilities", href: "#skillspage" },
     { name: "Certifications", href: "#certspage" },
     { name: "Contact", href: "#contactpage" },
   ];

@@ -32,9 +32,9 @@ const Homepage = () => {
 
         {/* Role */}
        <p className="font-mont text-[#DADADA] mx-auto lg:text-lg text-base mt-6 text-center">
-        IT Professional{" "}
-        <span className="text-[#C86A2A]">·</span>{" "}
-        Problem Solving
+        Enterprise Systems{" "}
+        <span className="text-[#C86A2A]"> ·</span>{" "}
+        IT Operations
        </p>
 
         {/* Buttons */}
@@ -80,16 +80,127 @@ const Homepage = () => {
       Professional Summary
     </h2>
 
-    {/* optional tiny accent line (very subtle) */}
+ 
     <div className="mx-auto mt-5 h-px w-16 bg-[#C86A2A]/40" />
   </div>
 
   {/* body */}
   <p className="mt-8 mx-auto max-w-2xl text-center font-mont text-base sm:text-lg leading-relaxed dark:text-[#DADADA] text-accent">
-    I’m an IT professional with experience supporting users and systems in structured environments. I focus on troubleshooting, documentation, and clear communication to help technology work reliably for the people who depend on it. I enjoy solving practical problems and continuously developing my skills across IT operations and systems.
+   I’m an IT professional with enterprise systems experience supporting Nova Scotia Health’s province-wide Oracle Health implementation. My work involves incident triage, application and workflow troubleshooting, escalation management, documentation, and service operations within a regulated environment. I’m continuing to develop my skills across infrastructure, cloud, identity and access management, and automation.
   </p>
 </section>
 
+
+<section
+  id="experiencepage"
+  className="mx-auto lg:w-2/3 md:w-4/5 w-full px-6 py-20 text-[#EDEDED] font-mont"
+>
+  <div className="mx-auto mb-14 max-w-3xl">
+    <div className="h-px w-full bg-[#EDEDED]/10" />
+  </div>
+
+  <div className="text-center">
+    <h2 className="font-mont text-2xl sm:text-3xl tracking-wide font-medium">
+      Professional Experience
+    </h2>
+
+    <div className="mx-auto mt-5 h-px w-16 bg-[#C86A2A]/40" />
+
+    <p className="mt-8 mx-auto max-w-xl text-center font-mont text-base leading-relaxed">
+      Experience supporting enterprise healthcare systems, IT operations,
+      incident management, and technical service delivery.
+    </p>
+  </div>
+
+  <div className="relative mt-16 mx-auto max-w-4xl">
+  {/* Vertical timeline line */}
+  <div className="absolute left-[7px] top-2 bottom-2 w-px bg-[#EDEDED]/15 sm:left-[9px]" />
+
+  {/* Job 1 */}
+  <div className="relative pb-14 pl-10 sm:pl-12">
+    {/* Current Timeline dot */}
+    <div className="absolute left-0 top-2 h-4 w-4 rounded-full border-2 border-[#C86A2A] bg-background" />
+
+    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+      <div>
+        <h3 className="font-mont text-lg font-medium text-[#EDEDED] sm:text-xl">
+          ATE Support Consultant
+        </h3>
+
+        <p className="mt-1 font-mont text-sm text-[#C86A2A] sm:text-base">
+          Nova Scotia Health
+        </p>
+      </div>
+
+      <p className="shrink-0 font-mont text-sm text-[#A5A5A5]">
+        August 2025 – Present
+      </p>
+    </div>
+
+    <p className="mt-5 max-w-3xl font-mont text-sm leading-7 text-[#DADADA] sm:text-base">
+      Supporting Nova Scotia Health&apos;s province-wide Oracle Health
+      implementation through virtual go-live assistance, incident triage,
+      application troubleshooting, escalation management, and technical
+      support across multiple facilities.
+    </p>
+  </div>
+
+  {/* Job 2 */}
+  <div className="relative pb-14 pl-10 sm:pl-12">
+    <div className="absolute left-0 top-2 h-4 w-4 rounded-full bg-[#C86A2A] ring-4 ring-[#101010] sm:h-[18px] sm:w-[18px]" />
+
+    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+      <div>
+        <h3 className="font-mont text-lg font-medium text-[#EDEDED] sm:text-xl">
+          Information Technology Intern
+        </h3>
+
+        <p className="mt-1 font-mont text-sm text-[#C86A2A] sm:text-base">
+          Resolute Health
+        </p>
+      </div>
+
+      <p className="shrink-0 font-mont text-sm text-[#A5A5A5]">
+        May 2024 – August 2024
+      </p>
+    </div>
+
+    <p className="mt-5 max-w-3xl font-mont text-sm leading-7 text-[#DADADA] sm:text-base">
+      Supported internal IT operations through service request management,
+      technical documentation, onboarding resources, and operational process
+      improvements.
+    </p>
+  </div>
+
+  {/* Job 3 */}
+  <div className="relative pl-10 sm:pl-12">
+    <div className="absolute left-0 top-2 h-4 w-4 rounded-full bg-[#C86A2A] ring-4 ring-[#101010] sm:h-[18px] sm:w-[18px]" />
+
+    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+      <div>
+        <h3 className="font-mont text-lg font-medium text-[#EDEDED] sm:text-xl">
+          Technical Customer Service Representative
+        </h3>
+
+        <p className="mt-1 font-mont text-sm text-[#C86A2A] sm:text-base">
+          Concentrix
+        </p>
+      </div>
+
+      <p className="shrink-0 font-mont text-sm text-[#A5A5A5]">
+        May 2022 – July 2023
+      </p>
+    </div>
+
+    <p className="mt-5 max-w-3xl font-mont text-sm leading-7 text-[#DADADA] sm:text-base">
+      Delivered high-volume technical support for Apple users while
+      troubleshooting hardware, software, and configuration issues and
+      coordinating repair escalations.
+    </p>
+  </div>
+</div>
+
+</section>
 
   <section
   id="skillspage"
@@ -102,10 +213,10 @@ const Homepage = () => {
 
   <div className="text-center">
     <h2 className="font-mont text-2xl sm:text-3xl tracking-wide font-medium text-accent dark:text-[#EDEDED]">
-      Areas of Focus
+      Enterprise IT Capabilities
     </h2>
     <p className="mt-4 mx-auto font-mont max-w-2xl text-accent dark:text-[#DADADA] leading-relaxed">
-      Practical IT skills centered on reliability, clarity, and people-first support.
+      Experience and developing capabilities across enterprise systems, infrastructure, identity, cloud, and automation.
     </p>
   </div>
 
@@ -113,20 +224,20 @@ const Homepage = () => {
   <div className="mt-10 grid gap-4 sm:grid-cols-2">
     {[
       {
-        title: "IT Support & Troubleshooting",
-        desc: "Professional communication, thoughtful diagnosis, and issue resolution.",
+        title: "Enterprise Systems & Operations",
+        desc: "Application support, incident triage, escalation workflows, and reliable service delivery in structured environments",
       },
       {
-        title: "Systems & Account Management",
-        desc: "User access, device readiness, and operational consistency.",
+        title: "Infrastructure & Cloud Foundations",
+        desc: "Windows, Linux, networking, Active Directory fundamentals, Microsoft 365, Azure, and Entra ID Learning",
       },
       {
-        title: "Documentation & Process",
-        desc: "Clear documentation, repeatable workflows, and better handoffs.",
+        title: "Identity, Access & Security",
+        desc: "Authentication, account access, role-based permissions, security-conscious operations, and identity concepts.",
       },
       {
-        title: "Automation Mindset",
-        desc: "Reducing repetitive work through scripts, tooling, and iteration.",
+        title: "Automation & Process Improvement",
+        desc: "PowerShell, Python, Bash, documentation, repeatable workflows, and operational efficiency.",
       },
     ].map((item) => (
       <div
@@ -149,14 +260,14 @@ const Homepage = () => {
   </div>
 
   {/* tools (small + optional) */}
-  <div className="mt-10 text-center">
+  {/* <div className="mt-10 text-center">
     <p className="font-mont text-xs tracking-[0.35em] text-[#DADADA]/60">
       TOOLS I USE
     </p>
     <p className="mt-3 font-mont text-sm text-[#DADADA]">
       Windows · Linux · Microsoft 365 · Networking · Python · Bash
     </p>
-  </div>
+  </div> */}
 </section>
 
 
