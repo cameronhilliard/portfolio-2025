@@ -114,90 +114,94 @@ const Homepage = () => {
 
   <div className="relative mt-16 mx-auto max-w-4xl">
   {/* Vertical timeline line */}
-  <div className="absolute left-[7px] top-2 bottom-2 w-px bg-[#EDEDED]/15 sm:left-[9px]" />
+ {/* Job 1 */}
+<div className="relative pb-14 pl-10 sm:pl-12">
+  {/* Current timeline dot */}
+  <div className="absolute left-0 top-2 z-10 h-4 w-4 rounded-full border-2 border-[#C86A2A] bg-background" />
 
-  {/* Job 1 */}
-  <div className="relative pb-14 pl-10 sm:pl-12">
-    {/* Current Timeline dot */}
-    <div className="absolute left-0 top-2 h-4 w-4 rounded-full border-2 border-[#C86A2A] bg-background" />
+  {/* Connector to next job */}
+  <div className="absolute left-[7px] top-6 bottom-0 w-[2px] bg-white/40 sm:left-[8px]" />
 
-    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-      <div>
-        <h3 className="font-mont text-lg font-medium text-[#EDEDED] sm:text-xl">
-          ATE Support Consultant
-        </h3>
+  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+    <div>
+      <h3 className="font-mont text-lg font-medium text-[#EDEDED] sm:text-xl">
+        ATE Support Consultant
+      </h3>
 
-        <p className="mt-1 font-mont text-sm text-[#C86A2A] sm:text-base">
-          Nova Scotia Health
-        </p>
-      </div>
-
-      <p className="shrink-0 font-mont text-sm text-[#A5A5A5]">
-        August 2025 – Present
+      <p className="mt-1 font-mont text-sm text-[#C86A2A] sm:text-base">
+        Nova Scotia Health
       </p>
     </div>
 
-    <p className="mt-5 max-w-3xl font-mont text-sm leading-7 text-[#DADADA] sm:text-base">
-      Supporting Nova Scotia Health&apos;s province-wide Oracle Health
-      implementation through virtual go-live assistance, incident triage,
-      application troubleshooting, escalation management, and technical
-      support across multiple facilities.
+    <p className="shrink-0 font-mont text-sm text-[#A5A5A5]">
+      August 2025 – Present
     </p>
   </div>
 
-  {/* Job 2 */}
-  <div className="relative pb-14 pl-10 sm:pl-12">
-    <div className="absolute left-0 top-2 h-4 w-4 rounded-full bg-[#C86A2A] ring-4 ring-[#101010] sm:h-[18px] sm:w-[18px]" />
+  <p className="mt-5 max-w-3xl font-mont text-sm leading-7 text-[#DADADA] sm:text-base">
+    Supporting Nova Scotia Health&apos;s province-wide Oracle Health
+    implementation through virtual go-live assistance, incident triage,
+    application troubleshooting, escalation management, and technical
+    support across multiple facilities.
+  </p>
+</div>
 
-    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-      <div>
-        <h3 className="font-mont text-lg font-medium text-[#EDEDED] sm:text-xl">
-          Information Technology Intern
-        </h3>
+{/* Job 2 */}
+<div className="relative pb-14 pl-10 sm:pl-12">
+  {/* Filled timeline dot */}
+  <div className="absolute left-0 top-2 z-10 h-4 w-4 rounded-full bg-[#C86A2A] ring-4 ring-background sm:h-[18px] sm:w-[18px]" />
 
-        <p className="mt-1 font-mont text-sm text-[#C86A2A] sm:text-base">
-          Resolute Health
-        </p>
-      </div>
+  {/* Connector to next job */}
+  <div className="absolute left-[7px] top-6 bottom-0 w-[2px] bg-white/40 sm:left-[8px]" />
 
-      <p className="shrink-0 font-mont text-sm text-[#A5A5A5]">
-        May 2024 – August 2024
+  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+    <div>
+      <h3 className="font-mont text-lg font-medium text-[#EDEDED] sm:text-xl">
+        Information Technology Intern
+      </h3>
+
+      <p className="mt-1 font-mont text-sm text-[#C86A2A] sm:text-base">
+        Resolute Health
       </p>
     </div>
 
-    <p className="mt-5 max-w-3xl font-mont text-sm leading-7 text-[#DADADA] sm:text-base">
-      Supported internal IT operations through service request management,
-      technical documentation, onboarding resources, and operational process
-      improvements.
+    <p className="shrink-0 font-mont text-sm text-[#A5A5A5]">
+      May 2024 – August 2024
     </p>
   </div>
 
-  {/* Job 3 */}
-  <div className="relative pl-10 sm:pl-12">
-    <div className="absolute left-0 top-2 h-4 w-4 rounded-full bg-[#C86A2A] ring-4 ring-[#101010] sm:h-[18px] sm:w-[18px]" />
+  <p className="mt-5 max-w-3xl font-mont text-sm leading-7 text-[#DADADA] sm:text-base">
+    Supported internal IT operations through service request management,
+    technical documentation, onboarding resources, and operational process
+    improvements.
+  </p>
+</div>
 
-    <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
-      <div>
-        <h3 className="font-mont text-lg font-medium text-[#EDEDED] sm:text-xl">
-          Technical Customer Service Representative
-        </h3>
+{/* Job 3 */}
+<div className="relative pl-10 sm:pl-12">
+  {/* Final dot — no connector */}
+  <div className="absolute left-0 top-2 z-10 h-4 w-4 rounded-full bg-[#C86A2A] ring-4 ring-background sm:h-[18px] sm:w-[18px]" />
 
-        <p className="mt-1 font-mont text-sm text-[#C86A2A] sm:text-base">
-          Concentrix
-        </p>
-      </div>
+  <div className="flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between">
+    <div>
+      <h3 className="font-mont text-lg font-medium text-[#EDEDED] sm:text-xl">
+        Technical Customer Service Representative
+      </h3>
 
-      <p className="shrink-0 font-mont text-sm text-[#A5A5A5]">
-        May 2022 – July 2023
+      <p className="mt-1 font-mont text-sm text-[#C86A2A] sm:text-base">
+        Concentrix
       </p>
     </div>
 
-    <p className="mt-5 max-w-3xl font-mont text-sm leading-7 text-[#DADADA] sm:text-base">
-      Delivered high-volume technical support for Apple users while
-      troubleshooting hardware, software, and configuration issues and
-      coordinating repair escalations.
+    <p className="shrink-0 font-mont text-sm text-[#A5A5A5]">
+      May 2022 – July 2023
     </p>
   </div>
+
+  <p className="mt-5 max-w-3xl font-mont text-sm leading-7 text-[#DADADA] sm:text-base">
+   Provided high-volume technical support for macOS and iOS environments, troubleshooting hardware, software, and configuration issues while coordinating repair escalations and delivering excellent customer service.
+  </p>
+</div>
 </div>
 
 </section>
