@@ -89,9 +89,11 @@ const Homepage = () => {
   {/* body */}
   <p className="mt-8 mx-auto max-w-2xl text-center font-mont text-base sm:text-lg leading-relaxed dark:text-[#DADADA] text-accent">
    I&apos;m an IT professional with enterprise systems experience supporting Nova Scotia Health&apos;s province-wide Oracle Health implementation. My work involves incident triage, application and workflow troubleshooting, escalation management, documentation, and IT service operations within a regulated healthcare environment.
-
-My professional interests include IT Service Management (ITSM), workflow automation, and enterprise systems. I&apos;m currently developing my skills in ServiceNow, scripting, and process automation to build more efficient and reliable technology solutions.
   </p>
+
+  <p className="mt-8 mx-auto max-w-2xl text-center font-mont text-base sm:text-lg leading-relaxed dark:text-[#DADADA] text-accent">
+My professional interests include IT Service Management (ITSM), workflow automation, and enterprise systems. I&apos;m currently developing my skills in ServiceNow, scripting, and process automation to build more efficient and reliable technology solutions.
+</p>
 </section>
 
 
