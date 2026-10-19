@@ -226,7 +226,7 @@ My professional interests include IT Service Management (ITSM), workflow automat
       Enterprise IT Capabilities
     </h2>
     <p className="mt-4 mx-auto font-mont max-w-2xl text-accent dark:text-[#DADADA] leading-relaxed">
-      Experience and developing capabilities across enterprise systems, infrastructure, identity, cloud, and automation.
+      Experience and developing capabilities across IT service management, enterprise systems, workflow automation, and infrastructure.
     </p>
   </div>
 
@@ -247,7 +247,7 @@ My professional interests include IT Service Management (ITSM), workflow automat
       },
       {
         title: "Infrastructure & Identity",
-        desc: "PowerShell, Python, Bash, documentation, repeatable workflows, and operational efficiency.",
+        desc: "Windows, Linux, Active Directory, networking fundamentals, Microsoft Azure, and identity and access management.",
       },
     ].map((item) => (
       <div
