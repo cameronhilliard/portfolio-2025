@@ -234,19 +234,19 @@ My professional interests include IT Service Management (ITSM), workflow automat
   <div className="mt-10 grid gap-4 sm:grid-cols-2">
     {[
       {
-        title: "Enterprise Systems & Operations",
-        desc: "Application support, incident triage, escalation workflows, and reliable service delivery in structured environments",
-      },
-      {
-        title: "Infrastructure & Cloud Foundations",
-        desc: "Windows, Linux, networking, Active Directory fundamentals, Microsoft 365, Azure, and Entra ID Learning",
-      },
-      {
-        title: "Identity, Access & Security",
-        desc: "Authentication, account access, role-based permissions, security-conscious operations, and identity concepts.",
+        title: "IT Service Management",
+        desc: "Incident management, service operations, escalation workflows, ITIL practices, and service delivery.",
       },
       {
         title: "Automation & Process Improvement",
+        desc: "PowerShell, Python, scripting, process optimization, and workflow automation.",
+      },
+      {
+        title: "Enterprise Systems & Operations",
+        desc: "Enterprise application support, troubleshooting, documentation, and operational reliability.",
+      },
+      {
+        title: "Infrastructure & Identity",
         desc: "PowerShell, Python, Bash, documentation, repeatable workflows, and operational efficiency.",
       },
     ].map((item) => (
