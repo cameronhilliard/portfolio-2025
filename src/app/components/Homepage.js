@@ -32,9 +32,11 @@ const Homepage = () => {
 
         {/* Role */}
        <p className="font-mont text-[#DADADA] mx-auto lg:text-lg text-base mt-6 text-center">
+        IT Service Management
+        <span className="text-[#C86A2A]"> ·</span>{" "}
         Enterprise Systems{" "}
         <span className="text-[#C86A2A]"> ·</span>{" "}
-        IT Operations
+        Automation
        </p>
 
         {/* Buttons */}
@@ -86,7 +88,9 @@ const Homepage = () => {
 
   {/* body */}
   <p className="mt-8 mx-auto max-w-2xl text-center font-mont text-base sm:text-lg leading-relaxed dark:text-[#DADADA] text-accent">
-   I’m an IT professional with enterprise systems experience supporting Nova Scotia Health’s province-wide Oracle Health implementation. My work involves incident triage, application and workflow troubleshooting, escalation management, documentation, and service operations within a regulated environment. I’m continuing to develop my skills across infrastructure, cloud, identity and access management, and automation.
+   I'm an IT professional with enterprise systems experience supporting Nova Scotia Health's province-wide Oracle Health implementation. My work involves incident triage, application and workflow troubleshooting, escalation management, documentation, and IT service operations within a regulated healthcare environment.
+
+My professional interests include IT Service Management (ITSM), workflow automation, and enterprise systems. I'm currently developing my skills in ServiceNow, scripting, and process automation to build more efficient and reliable technology solutions.
   </p>
 </section>
 
